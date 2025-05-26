@@ -31,7 +31,7 @@ on:
     branches: [ "master" ]
 
 env:
-  AWS_REGION: ap_south_1                  # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: ap_south-1                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: myworld          # set this to your Amazon ECR repository name
   ECS_SERVICE: myworld_node_1               # set this to your Amazon ECS service name
   ECS_CLUSTER: myworld_nord              # set this to your Amazon ECS cluster name
